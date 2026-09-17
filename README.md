@@ -58,7 +58,7 @@ Run the compiled application:
 java -cp out reservation.Main
 ```
 
-How to Test
+## How to Test
 The project was hand-tested with a series of commands being executed in the console to ensure that all features are functioning properly. The following steps have been carried out:
 
 Launched the application and navigated the main menu to select the "Search Trains" option.
