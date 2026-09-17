@@ -44,16 +44,13 @@ Install Java 21+ (JDK): See which version of Java is installed by running java -
 
 Go into the project folder:
 
-Bash
-cd train-reservation-system
+```cd train-reservation-system```
 Compile the source code:
 
-Bash
-javac -d out src/reservation/Main.java src/reservation/models/*.java src/reservation/controllers/*.java src/reservation/exceptions/*.java
+```javac -d out src/reservation/Main.java src/reservation/models/*.java src/reservation/controllers/*.java src/reservation/exceptions/*.java```
 Run the compiled application:
 
-Bash
-java -cp out reservation.Main
+```java -cp out reservation.Main```
 
 How to Test
 The project was hand-tested with a series of commands being executed in the console to ensure that all features are functioning properly. The following steps have been carried out:
@@ -68,6 +65,6 @@ Searched for the same train again to confirm that the available seat count decre
 
 Attempted to book a ticket using a non-existent Train ID to check that the InvalidBookingException correctly displayed an error message without crashing the program.
 
-(Simulation) Attempted to book more seats than available on a specific train to ensure the system rejected the booking due to insufficient capacity.
+Attempted to book more seats than available on a specific train to ensure the system rejected the booking due to insufficient capacity.
 
 Closed the program and re-opened it to ensure train capacities and ticket histories were populated properly from the file storage.
