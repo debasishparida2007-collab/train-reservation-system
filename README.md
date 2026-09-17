@@ -44,13 +44,19 @@ Install Java 21+ (JDK): See which version of Java is installed by running java -
 
 Go into the project folder:
 
-```cd train-reservation-system```
+```text
+cd train-reservation-system
+```
 Compile the source code:
 
-```javac -d out src/reservation/Main.java src/reservation/models/*.java src/reservation/controllers/*.java src/reservation/exceptions/*.java```
+```text
+javac -d out src/reservation/Main.java src/reservation/models/*.java src/reservation/controllers/*.java src/reservation/exceptions/*.java
+```
 Run the compiled application:
 
-```java -cp out reservation.Main```
+```text
+java -cp out reservation.Main
+```
 
 How to Test
 The project was hand-tested with a series of commands being executed in the console to ensure that all features are functioning properly. The following steps have been carried out:
